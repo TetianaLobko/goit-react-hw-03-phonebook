@@ -1,0 +1,12 @@
+.container {
+  width: 800px;
+  margin-right: auto;
+  margin-left: auto;
+  background-image: linear-gradient(
+    to right,
+    #9eefe1 0%,
+    #4830f0 51%,
+    #9eefe1 100%
+  );
+  text-align: center;
+}

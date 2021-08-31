@@ -1,0 +1,44 @@
+.button {
+  display: block;
+  margin: 20px auto 0 auto;
+  border: none;
+  cursor: pointer;
+  width: 140px;
+  height: 45px;
+  line-height: 45px;
+  border-radius: 45px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 11px;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 3px;
+  font-weight: 600;
+  color: #524f4e;
+  background: white;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+}
+.button:hover {
+  background: orange;
+  box-shadow: 0 15px 20px rgba(171, 214, 15, 0.5);
+  color: white;
+  transform: translateY(-7px);
+}
+.form {
+  text-align: center;
+}
+
+.title {
+  margin: 0;
+  padding: 20px 0;
+  font-size: 25px;
+  color: bisque;
+}
+
+.input {
+  border: 0;
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+  box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
+  border-radius: 10px;
+}

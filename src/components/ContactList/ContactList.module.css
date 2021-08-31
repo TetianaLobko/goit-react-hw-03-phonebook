@@ -1,0 +1,33 @@
+.list {
+  padding: 20px 0;
+
+  width: 45%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.item {
+  font-size: 18px;
+  color: honeydew;
+  list-style: none;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btnDelete {
+  border: none;
+  cursor: pointer;
+  padding: 8px 25px;
+  border-radius: 10px;
+  box-shadow: 0 0 40px 40px #bb0909 inset, 0 0 0 0 #bb0909;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: honeydew;
+  transition: 0.15s ease-in-out;
+}
+.btnDelete:hover {
+  box-shadow: 0 0 10px 0 #bb0909 inset, 0 0 10px 4px #bb0909;
+  color: #bb0909;
+}
